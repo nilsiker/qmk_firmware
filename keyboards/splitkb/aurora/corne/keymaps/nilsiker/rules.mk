@@ -1,0 +1,2 @@
+CONVERT_TO=liatris
+TAP_DANCE_ENABLE = yes
