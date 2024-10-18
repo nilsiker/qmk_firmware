@@ -27,10 +27,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                     KC_LGUI, _______, KC_SPC,       KC_ENT, MO(3), KC_RALT),
 
     [LAYOUT_RAISE] = LAYOUT_split_3x6_3(
-        _______, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC,           KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC, 
-        KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, KC_GRV, 
-        KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,       KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, KC_TILD, 
-                                    KC_LGUI, MO(3), KC_SPC,         KC_ENT, _______, KC_RALT),
+        _______, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC,                KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_BSPC, 
+        KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, LSFT(KC_8), ALGR(KC_7),       KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_BSLS, KC_GRV, 
+        KC_LSFT, XXXXXXX, XXXXXXX, XXXXXXX, LSFT(KC_9), ALGR(KC_0),       KC_UNDS, KC_PLUS, KC_LCBR, KC_RCBR, KC_PIPE, KC_TILD, 
+                                            KC_LGUI, MO(3), KC_SPC,       KC_ENT, _______, KC_RALT),
 
     [LAYOUT_LAYER_HUB] = LAYOUT_split_3x6_3(
         QK_BOOT, DF(0), DF(1), DF(2), DF(3), DF(4),                     XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, 
