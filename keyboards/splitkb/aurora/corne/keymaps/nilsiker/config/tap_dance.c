@@ -1,5 +1,6 @@
 enum {
-    TD_B_M,
+    TD_B_HOLD_M,
+    TD_TAB_HOLD_ESC
 };
 
 typedef struct {
